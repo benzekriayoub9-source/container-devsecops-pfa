@@ -62,7 +62,9 @@ jobs:
           pip install -r app/requirements.txt pytest
 
       - name: Run pytest
-        run: pytest tests/ -v
+        run: python -m pytest tests/ -v
+        env:
+          PYTHONPATH: .
 
   build-scan-push:
     name: "Build, Scan & Push"
