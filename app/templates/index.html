@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Secure WebApp — DevSecOps PFA</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 3rem auto; padding: 0 1rem; }
+    h1 { color: #1a365d; }
+    .badge { display: inline-block; background: #38a169; color: white; padding: 0.25rem 0.75rem; border-radius: 999px; font-size: 0.875rem; }
+    ul { line-height: 1.8; }
+  </style>
+</head>
+<body>
+  <h1>Sécurisation de la chaîne de conteneurisation</h1>
+  <p><span class="badge">DevSecOps</span></p>
+  <p>Application web minimaliste avec durcissement Docker et pipeline CI/CD sécurisé.</p>
+  <h2>Contrôles automatisés</h2>
+  <ul>
+    <li>Hadolint — analyse statique du Dockerfile</li>
+    <li>Trivy — SCA & scan d'image (seuil CRITICAL/HIGH)</li>
+    <li>Build multi-étapes, utilisateur non-root</li>
+  </ul>
+  <p><a href="/health">Endpoint /health</a> | <a href="/api/info">API /api/info</a></p>
+</body>
+</html>
