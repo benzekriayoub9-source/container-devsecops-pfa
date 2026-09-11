@@ -69,4 +69,5 @@ Voir [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)
 
 ## Auteur
 
-[Votre nom] — PFA 2026
+Benzekri Ayoub 
+
